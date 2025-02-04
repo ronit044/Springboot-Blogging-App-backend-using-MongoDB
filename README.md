@@ -93,10 +93,5 @@ mvnw.cmd spring-boot:run  # Windows
 ## License
 This project is licensed under the **MIT License**.
 
-## Author
-**Ronit Sharma**
-- GitHub: [ronit044](https://github.com/ronit044)
-- LinkedIn: [Ronit Sharma](https://www.linkedin.com/in/ronit-sharma)
-
 ---
 This README serves as a guide for installation, setup, and development for contributors and users of the blogging backend API.
