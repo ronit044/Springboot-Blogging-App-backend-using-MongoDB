@@ -1,4 +1,4 @@
-# Blogging Application Backend
+# Blogging Application Backend (Under Progress)
 
 ## Overview
 The **Blogging Application Backend** is a Spring Boot-based REST API that provides essential functionalities for a blogging platform. It is built using **Spring Boot** and **MongoDB** for efficient data storage and retrieval. The project follows a structured **MVC architecture** with well-defined services and repository layers.
@@ -41,12 +41,6 @@ ronit044-springboot-blogging-app-backend-using-mongodb/
 │   │   │                   └── UserServices.java        # User Service
 │   │   └── resources/
 │   │       └── application.properties                    # Application Configuration
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── bloggingApp/
-│                   └── bloggingApplication/
-│                       └── BloggingApplicationTests.java  # Unit Tests
 └── .mvn/
     └── wrapper/
         └── maven-wrapper.properties                       # Maven Wrapper
@@ -94,29 +88,6 @@ mvn spring-boot:run
 ```sh
 ./mvnw spring-boot:run  # Linux/macOS
 mvnw.cmd spring-boot:run  # Windows
-```
-
-## API Endpoints
-### User APIs
-| Method | Endpoint           | Description         |
-|--------|-------------------|---------------------|
-| POST   | `/api/users/signup` | Register User      |
-| POST   | `/api/users/login`  | User Login        |
-| GET    | `/api/users/{id}`   | Get User by ID    |
-
-### Blog APIs
-| Method | Endpoint            | Description         |
-|--------|--------------------|---------------------|
-| POST   | `/api/blogs`        | Create Blog        |
-| GET    | `/api/blogs`        | Get All Blogs     |
-| GET    | `/api/blogs/{id}`   | Get Blog by ID    |
-| PUT    | `/api/blogs/{id}`   | Update Blog       |
-| DELETE | `/api/blogs/{id}`   | Delete Blog       |
-
-## Running Tests
-Run unit tests using:
-```sh
-mvn test
 ```
 
 ## License
